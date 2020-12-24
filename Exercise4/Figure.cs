@@ -9,9 +9,9 @@ namespace Exercise4
 
         public Figure(Point a, Point b, Point c)
         {
-            points.Add(a);
-            points.Add(b);
-            points.Add(c);
+            points.Add(a); 
+            points.Add(b); 
+            points.Add(c); 
         }
 
         public Figure(Point a, Point b, Point c, Point d) : this(a, b, c)

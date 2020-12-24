@@ -2,6 +2,7 @@ namespace Exercise2
 {
     public class Rectangle
     {
+        // Красота!
         private double side1;
         private double side2;
 

@@ -7,7 +7,8 @@ namespace BonusExercise
     {
         static void Main(string[] args)
         {
-            Address adr = new Address();
+            Address adr = new Address(); // Используем блок инициализатора. Если нужно задать
+                                         // начальное значение свойствам.  
             adr.Index = 404;
             adr.Country = "Some country";
             adr.City = "Some city";
